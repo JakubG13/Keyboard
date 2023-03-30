@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+body {
+  background-color: rgb(99, 166, 253);
+}
+main.keyboard {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 400px;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+div.one,
+div.oneHalf,
+div.two,
+div.twoHalf,
+div.eight {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-transform: capitalize;
+  padding-top: 10px;
+}
+
+section.toggle {
+  font-size: 2.3rem;
+  position: absolute;
+  bottom: 24%;
+  left: calc(50% - 1200px / 2);
+  /* color: black; */
+}
+section.toggle i {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  cursor: pointer;
+}
+section.toggle i.fa-toggle-on {
+  display: none;
+}
+section.toggle i.fa-toggle-off {
+  display: block;
+}
+
+div.animationColor {
+  animation: color 15s infinite;
+}
+
+div.one {
+  width: 80px;
+}
+div.oneHalf {
+  width: 120px;
+}
+div.two {
+  width: 160px;
+}
+div.twoHalf {
+  width: 200px;
+}
+div.eight {
+  width: 640px;
+}
+div:hover {
+  background-color: rgb(221, 76, 65);
+}
+span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+div.animation0 {
+  animation: animation0 1.2s;
+}
+div.animation1 {
+  animation: animation1 1.2s 0.02s;
+}
+div.animation2 {
+  animation: animation2 1.2s 0.04s;
+}
+div.animation3 {
+  animation: animation3 1.2s 0.06s;
+}
+div.animation4 {
+  animation: animation4 1.2s 0.08s;
+}
+div.animation5 {
+  animation: animation5 1.2s 0.1s;
+}
+div.animation6 {
+  animation: animation6 1.2s 0.12s;
+}
+div.animation7 {
+  animation: animation7 1.2s 0.14s;
+}
+div.animation8 {
+  animation: animation8 1.2s 0.16s;
+}
+div.animation9 {
+  animation: animation9 1.2s 0.18s;
+}
+div.animation10 {
+  animation: animation10 1.2s 0.2s;
+}
+div.animation11 {
+  animation: animation11 1.2s 0.22s;
+}
+div.animation12 {
+  animation: animation12 1.2s 0.24s;
+}
+div.animation13 {
+  animation: animation13 1.2s 0.26s;
+}
+div.animation14 {
+  animation: animation1 1.2s 0.28s;
+}
+div.animation15 {
+  animation: animation2 1.2s 0.3s;
+}
+div.animation16 {
+  animation: animation3 1.2s 0.32s;
+}
+div.animation17 {
+  animation: animation4 1.2s 0.34s;
+}
+div.animation18 {
+  animation: animation5 1.2s 0.36s;
+}
+div.animation19 {
+  animation: animation6 1.2s 0.38s;
+}
+div.animation20 {
+  animation: animation7 1.2s 0.4s;
+}
+div.animation21 {
+  animation: animation8 1.2s 0.42s;
+}
+div.animation22 {
+  animation: animation9 1.2s 0.44s;
+}
+div.animation23 {
+  animation: animation10 1.2s 0.46s;
+}
+div.animation24 {
+  animation: animation11 1.2s 0.48s;
+}
+div.animation25 {
+  animation: animation12 1.2s 0.5s;
+}
+div.animation26 {
+  animation: animation13 1.2s 0.52s;
+}
+div.animation27 {
+  animation: animation1 1.2s 0.54s;
+}
+div.animation28 {
+  animation: animation2 1.2s 0.56s;
+}
+div.animation29 {
+  animation: animation3 1.2s 0.58s;
+}
+div.animation30 {
+  animation: animation4 1.2s 0.6s;
+}
+div.animation31 {
+  animation: animation5 1.2s 0.62s;
+}
+div.animation32 {
+  animation: animation6 1.2s 0.64s;
+}
+div.animation33 {
+  animation: animation7 1.2s 0.66s;
+}
+div.animation34 {
+  animation: animation8 1.2s 0.68s;
+}
+div.animation35 {
+  animation: animation9 1.2s 0.7s;
+}
+div.animation36 {
+  animation: animation10 1.2s 0.72s;
+}
+div.animation37 {
+  animation: animation11 1.2s 0.74s;
+}
+div.animation38 {
+  animation: animation12 1.2s 0.76s;
+}
+div.animation39 {
+  animation: animation13 1.2s 0.78s;
+}
+div.animation40 {
+  animation: animation1 1.2s 0.8s;
+}
+div.animation41 {
+  animation: animation2 1.2s 0.82s;
+}
+div.animation42 {
+  animation: animation3 1.2s 0.84s;
+}
+div.animation43 {
+  animation: animation4 1.2s 0.86s;
+}
+div.animation44 {
+  animation: animation5 1.2s 0.88s;
+}
+div.animation45 {
+  animation: animation6 1.2s 0.9s;
+}
+div.animation46 {
+  animation: animation7 1.2s 0.92s;
+}
+div.animation47 {
+  animation: animation8 1.2s 0.94s;
+}
+div.animation48 {
+  animation: animation9 1.2s 0.96s;
+}
+div.animation49 {
+  animation: animation10 1.2s 0.98s;
+}
+div.animation50 {
+  animation: animation11 1.2s 1s;
+}
+div.animation51 {
+  animation: animation12 1.2s 1.02s;
+}
+div.animation52 {
+  animation: animation13 1.2s 1.04s;
+}
+div.animation53 {
+  animation: animation1 1.2s 1.06s;
+}
+div.animation54 {
+  animation: animation2 1.2s 1.08s;
+}
+div.animation55 {
+  animation: animation3 1.2s 1.1s;
+}
+div.animation56 {
+  animation: animation4 1.2s 1.12s;
+}
+div.animation57 {
+  animation: animation5 1.2s 1.14s;
+}
+div.animation58 {
+  animation: animation6 1.2s 1.16s;
+}
+div.animation59 {
+  animation: animation7 1.2s 1.18s;
+}
+div.animation60 {
+  animation: animation8 1.2s 1.2s;
+}
+
+@keyframes animation0 {
+  0%,
+  100% {
+    background-color: rgb(221, 76, 65);
+    border: 10px solid black;
+  }
+}
+@keyframes animation1 {
+  0%,
+  100% {
+    background-color: rgb(255, 19, 2);
+  }
+}
+@keyframes animation2 {
+  0%,
+  100% {
+    background-color: rgb(255, 165, 0);
+  }
+}
+@keyframes animation3 {
+  0%,
+  100% {
+    background-color: rgb(221, 201, 23);
+  }
+}
+@keyframes animation4 {
+  0%,
+  100% {
+    background-color: yellow;
+  }
+}
+@keyframes animation5 {
+  0%,
+  100% {
+    background-color: rgb(155, 187, 12);
+  }
+}
+@keyframes animation6 {
+  0%,
+  100% {
+    background-color: rgb(0, 128, 0);
+  }
+}
+@keyframes animation7 {
+  0%,
+  100% {
+    background-color: rgb(0, 250, 196);
+  }
+}
+@keyframes animation8 {
+  0%,
+  100% {
+    background-color: rgb(71, 204, 221);
+  }
+}
+@keyframes animation9 {
+  0%,
+  100% {
+    background-color: rgb(0, 108, 250);
+  }
+}
+@keyframes animation10 {
+  0%,
+  100% {
+    background-color: rgb(65, 101, 221);
+  }
+}
+@keyframes animation11 {
+  0%,
+  100% {
+    background-color: rgb(0, 58, 250);
+  }
+}
+@keyframes animation12 {
+  0%,
+  100% {
+    background-color: rgb(22, 24, 143);
+  }
+}
+@keyframes animation13 {
+  0%,
+  100% {
+    background-color: rgb(129, 0, 250);
+  }
+}
+
+@keyframes color {
+  0% {
+    color: rgb(255, 19, 2);
+    border: 1px solid rgb(255, 19, 2);
+  }
+  5% {
+    color: rgb(255, 19, 2);
+    border: 1px solid rgb(255, 19, 2);
+  }
+  10% {
+    color: rgb(255, 165, 0);
+    border: 1px solid rgb(255, 165, 0);
+  }
+  15% {
+    color: rgb(255, 165, 0);
+    border: 1px solid rgb(255, 165, 0);
+  }
+  20% {
+    color: rgb(221, 201, 23);
+    border: 1px solid rgb(221, 201, 23);
+  }
+  25% {
+    color: rgb(221, 201, 23);
+    border: 1px solid rgb(221, 201, 23);
+  }
+  30% {
+    color: rgb(155, 187, 12);
+    border: 1px solid rgb(155, 187, 12);
+  }
+  35% {
+    color: rgb(155, 187, 12);
+    border: 1px solid rgb(155, 187, 12);
+  }
+  40% {
+    color: rgb(0, 128, 0);
+    border: 1px solid rgb(0, 128, 0);
+  }
+  45% {
+    color: rgb(0, 128, 0);
+    border: 1px solid rgb(0, 128, 0);
+  }
+  50% {
+    color: rgb(71, 204, 221);
+    border: 1px solid rgb(71, 204, 221);
+  }
+  55% {
+    color: rgb(71, 204, 221);
+    border: 1px solid rgb(71, 204, 221);
+  }
+  60% {
+    color: rgb(0, 108, 250);
+    border: 1px solid rgb(0, 108, 250);
+  }
+  65% {
+    color: rgb(0, 108, 250);
+    border: 1px solid rgb(0, 108, 250);
+  }
+  70% {
+    color: rgb(65, 101, 221);
+    border: 1px solid rgb(65, 101, 221);
+  }
+  75% {
+    color: rgb(65, 101, 221);
+    border: 1px solid rgb(65, 101, 221);
+  }
+  80% {
+    color: rgb(0, 58, 250);
+    border: 1px solid rgb(0, 58, 250);
+  }
+  85% {
+    color: rgb(0, 58, 250);
+    border: 1px solid rgb(0, 58, 250);
+  }
+  90% {
+    color: rgb(22, 24, 143);
+    border: 1px solid rgb(22, 24, 143);
+  }
+  95% {
+    color: rgb(22, 24, 143);
+    border: 1px solid rgb(22, 24, 143);
+  }
+  100% {
+    color: rgb(255, 19, 2);
+    border: 1px solid rgb(255, 19, 2);
+  }
+}
